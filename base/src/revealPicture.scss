@@ -1,0 +1,66 @@
+.main {
+	p {
+		position: absolute;
+		transform: rotate(-90deg);
+		top: 400px;
+		font-size: 20px;
+		font-weight: 700;
+		font-family: "Avenir";
+		letter-spacing: 10px;
+	}
+	.container {
+		width: 720px;
+		margin: 0 auto;
+		height: 100vh;
+		display: flex;
+		align-items: center;
+		visibility: hidden;
+
+		background: pink;
+	}
+}
+
+.img-container {
+	width: 720px;
+	height: 480px;
+	position: relative;
+	overflow: hidden;
+
+	&::after {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		right: 0;
+		background: #fff;
+	}
+	img {
+		width: 720px;
+		margin: 0 auto;
+	}
+}
+
+/* .App {
+	text-align: center;
+}
+
+.App-header {
+	min-height: 100vh;
+}
+.circle {
+	width: 75px;
+	height: 75px;
+	border-radius: 100%;
+	background-color: #fdcf51;
+	margin: 50px;
+	opacity: 1;
+}
+
+.circle.red {
+	background-color: red;
+}
+.circle.blue {
+	background-color: blue;
+}
+ */
