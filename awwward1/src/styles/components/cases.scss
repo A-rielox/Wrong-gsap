@@ -1,6 +1,6 @@
 .cases {
 	height: 50vh;
-	height: calc(var(--vh, 1vh) * 50);
+	// height: calc(var(--vh, 1vh) * 50);
 	.cases-navigation {
 		position: absolute;
 		bottom: 0px;
@@ -54,7 +54,7 @@
 			.case-details {
 				width: 33.3333vw;
 				height: 50vh;
-				height: calc(var(--vh, 1vh) * 50);
+				// height: calc(var(--vh, 1vh) * 50);
 				display: flex;
 				flex-direction: column;
 				justify-content: center;

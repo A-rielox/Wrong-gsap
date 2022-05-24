@@ -1,6 +1,6 @@
 .main {
 	height: 50vh; //fallback option
-	height: calc(var(--vh, 1vh) * 50);
+	// height: calc(var(--vh, 1vh) * 50);
 	background-color: $white;
 
 	.row {
@@ -29,7 +29,7 @@
 				margin-bottom: 8px;
 				height: 56px;
 				position: relative;
-				overflow: hidden;
+				overflow: hidden; /* ⭐⭐⭐ p el efecto de aparición */
 
 				@include media("<=tablet") {
 					height: 48px;
@@ -48,6 +48,7 @@
 			width: 256px;
 			position: relative;
 			z-index: 2;
+
 			a {
 				font-size: 1.6rem;
 				color: $black;
