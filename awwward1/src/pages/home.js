@@ -27,6 +27,7 @@ const homeAnimation = (completeAnimation) => {
 			ease: "expo.inOut",
 			stagger: 0.4,
 			duration: 1.6,
+			delay: -1,
 		})
 		.to(".overlay-bottom", {
 			width: 0,
