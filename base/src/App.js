@@ -5,7 +5,7 @@ import "./App.scss";
 import imgGirl from "./images/girl.webp";
 import imgBoy from "./images/boy.webp";
 import arrow from "./images/arrow-right.svg";
-
+	
 import gsap from "gsap";
 
 function App() {

@@ -106,15 +106,6 @@ function App() {
 			},
 			0.2
 		);
-
-		// tc1.to(".card-1 h3", {
-		// 	ease: "power4.easeInOut",
-		// 	duration: 0.5,
-		// 	fontSize: 24,
-		// 	margin: "32px",
-		// 	y: -250,
-		// 	delay: -0.3,
-		// });
 	}, []);
 
 	return (
